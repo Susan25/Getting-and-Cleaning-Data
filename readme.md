@@ -1,5 +1,5 @@
 ##Getting and Cleaning Data
-##Course Project for the Data Science Specialization
+###Course Project for the Data Science Specialization
 =========================
 
 ### Project Purpose *
