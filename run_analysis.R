@@ -1,9 +1,14 @@
 
 
-# define source data variables
-datadir  <- "A:/SkyDrive/Education/Coursera/Data Science Certificate/3) Getting and Cleaning Data/UCI HAR Dataset"
-testdir  <- paste(datadir, "test", sep="/")
-traindir <- paste(datadir, "train", sep="/")
+# define working directory source data variables - depending on the folder where the 
+#raw data is added this may need to be change
+setwd("~/GitHub/Getting-and-Cleaning-Data");
+datadir<-"raw data";
+
+# extend the test and train directories
+testdir<-paste(datadir, "test", sep="/");
+traindir<-paste(datadir, "train", sep="/");
+resultdir<-"result sets";
 
 # ensure data.table is available
 library(data.table);
@@ -80,12 +85,11 @@ tidy.set<-merge(tidy.set,activity)
 tidy.set<-tidy.set[,c(ncol(tidy.set),2:(ncol(tidy.set)-1)),with=FALSE]
 
 
-# write the tidy.set to the input directory
-write.table(tidy.set, file = paste(datadir, "tidy_data_set.txt", sep="/"))
+# write the tidy.set to the output directory
+write.table(tidy.set, file = paste(resultdir, "tidy_data_set.txt", sep="/"))
 
-
-
-
-
+# write the agg.set to the output directory
+agg.set<-tidy.set[,lapply(.SD,mean),by=c("ActivityName","SubjectNumber")]
+write.table(agg.set, file = paste(resultdir, "aggregate_data_set.txt", sep="/"))
 
 
