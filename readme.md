@@ -26,8 +26,10 @@ There are two result sets generated when executing the Instruction List, both of
 
 If placed in your working directory, the result sets can be consumed via R with the below code script.
 
-```
-
+```R
+# load the result sets from the working directory
+rs<-read.table(paste("result sets","tidy_data_set.txt",sep="/"))
+as<-read.table(paste("result sets","aggregate_data_set.txt",sep="/"))
 ```
 
 ####[2.4] Raw Data Sources
