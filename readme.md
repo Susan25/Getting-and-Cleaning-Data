@@ -6,7 +6,7 @@
 
 ###[2] The Contents
 
-####[2.1] R Scripts
+####[2.1] The Instruction List
 
 ####[2.2] Code Book
 
