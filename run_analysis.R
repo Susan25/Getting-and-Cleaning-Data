@@ -88,8 +88,11 @@ tidy.set<-tidy.set[,c(ncol(tidy.set),2:(ncol(tidy.set)-1)),with=FALSE]
 # write the tidy.set to the output directory
 write.table(tidy.set, file = paste(resultdir, "tidy_data_set.txt", sep="/"))
 
+
 # write the agg.set to the output directory
 agg.set<-tidy.set[,lapply(.SD,mean),by=c("ActivityName","SubjectNumber")]
 write.table(agg.set, file = paste(resultdir, "aggregate_data_set.txt", sep="/"))
 
-
+# load the result sets from the working directory
+#rs<-read.table(paste("result sets","tidy_data_set.txt",sep="/"))
+#as<-read.table(paste("result sets","aggregate_data_set.txt",sep="/"))
