@@ -27,11 +27,11 @@ You should create one R script called `run_analysis.R` that does the following:
 
 ### The Grading Scale / Questions *
 
-1. 
-2.
+1. x
+2. x
 
 
-###### * Pulled directly from the Course Project content on [Courser](www.coursera.com).
+###### * Pulled directly a/o paraphased from the Course Project content on [Coursea](www.coursera.com).
 
 
 
