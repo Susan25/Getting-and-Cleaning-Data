@@ -35,5 +35,7 @@ as<-read.table(paste("result sets","aggregate_data_set.txt",sep="/"))
 The raw data used for in this exercise was initally found [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).  That data was extracted and uploaded to this repository under the folder 'raw data'; you can get there through this [link](https://github.com/mjfii/Getting-and-Cleaning-Data/tree/master/raw%20data).  Please note the 'readme.txt' file presented within the contents of the 'raw data' directory.
 
 ####[2.4] Version Information
-
+- R Studio Version 0.98.953
+- R version 3.1.1 (2014-07-10)
+- Platform x86_64-w64-mingw32/x64 (64-bit)
 
