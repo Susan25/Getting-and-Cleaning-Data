@@ -1,5 +1,4 @@
 ##Getting and Cleaning Data
-=========================
 
 ###[1] The Repository Overview
 One of the most exciting areas in all of data science right now is wearable computing - see for example this article . Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained: 
@@ -33,6 +32,8 @@ as<-read.table(paste("result sets","aggregate_data_set.txt",sep="/"))
 ```
 
 ####[2.4] Raw Data Sources
-The raw data used for in this exercise was initally found [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).  That data was extracted and uploaded to this repository under the folder 'raw data', you can get there through this [link](https://github.com/mjfii/Getting-and-Cleaning-Data/tree/master/raw%20data).  Please note the 'readme.txt' file presented within the contents of the 'raw data' directory.
+The raw data used for in this exercise was initally found [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).  That data was extracted and uploaded to this repository under the folder 'raw data'; you can get there through this [link](https://github.com/mjfii/Getting-and-Cleaning-Data/tree/master/raw%20data).  Please note the 'readme.txt' file presented within the contents of the 'raw data' directory.
 
 ####[2.4] Version Information
+
+
