@@ -1,7 +1,7 @@
 ##Getting and Cleaning Data
 
 ###[1] The Repository Contents and Overview
-This repositity contains data cleaned data collected by [www.smartlab.ws](www.smartlab.ws).  The experiment was composed of 30 volunteers, within a specified age bracket, that performed a variety of activities, e.g. Walking, Sitting, etc.  Triaxial acceleration information was collected via a Samsung Galaxy S II smartphone using an accelerometer and a gyroscope.
+This repositity contains cleaned data originally collected by [www.smartlab.ws](www.smartlab.ws).  The experiment was composed of 30 volunteers, within a specified age bracket, that performed a variety of activities, e.g. Walking, Sitting, etc.  Triaxial acceleration information was collected via a Samsung Galaxy S II smartphone using an accelerometer and a gyroscope.
 
 Furthermore, the repository maintains the primary components of tidy data set used for analytics with respect to above stated overview.  Collectively, the below sub-sections represents a comprehensive view for reproducing and understanding the content as a whole.
 
