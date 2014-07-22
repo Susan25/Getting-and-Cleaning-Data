@@ -2,12 +2,24 @@
 
 Below are the cleaned data set variables, included data types, units, and other realted attributes.  The process for arriving at the below results can be further review in the readme.md and the R script itself.
 
-###[1] Cleaned Result Set
+###[1] Variable Name Coding:
+- `-x` X Axis
+- `-y` Y Axis
+- `-z` Z Axis
+- `Acc` acceleration
+- `Gyro` gyroscope
+- `Mag` magnitude
+- `mean()` average
+- `std()` standard deviation
+- `t` time prefix
+- `f` frequency prefix
 
-File Location: 
+###[2] Cleaned Result Set
 
-Variable Name | Variable Type | Units | Raw Data Source | Transformations
---- | --- | --- | --- | ---
+File Location: [https://github.com/mjfii/Getting-and-Cleaning-Data/blob/master/result sets/tidy_data_set.txt](https://github.com/mjfii/Getting-and-Cleaning-Data/blob/master/result sets/tidy_data_set.txt)
+
+Variable Name | Variable Type | Units
+--- | --- | ---
 ActivityName | Reference | n/a
 SubjectNumber | Reference | n/a
 tBodyAcc-mean()-X | Measurement | standard gravity units
@@ -76,6 +88,77 @@ fBodyBodyGyroMag-std() | Measurement | radians per second
 fBodyBodyGyroJerkMag-mean() | Measurement | radians per second
 fBodyBodyGyroJerkMag-std() | Measurement | radians per second
 
-###[2] Cleaned and Aggregated Result Set
+###[3] Cleaned and Aggregated Result Set
 
-File Location:
+File Location: File Location: [https://github.com/mjfii/Getting-and-Cleaning-Data/blob/master/result sets/aggregate_data_set.txt](https://github.com/mjfii/Getting-and-Cleaning-Data/blob/master/result sets/aggregate_data_set.txt)
+
+Variable Name | Variable Type | Units | Aggregation
+--- | --- | --- | ---
+ActivityName | Reference | n/a | group by
+SubjectNumber | Reference | n/a | group by
+tBodyAcc-mean()-X | Measurement | standard gravity units | average
+tBodyAcc-mean()-Y | Measurement | standard gravity units | average
+tBodyAcc-mean()-Z | Measurement | standard gravity units | average
+tBodyAcc-std()-X | Measurement | standard gravity units | average
+tBodyAcc-std()-Y | Measurement | standard gravity units | average
+tBodyAcc-std()-Z | Measurement | standard gravity units | average
+tGravityAcc-mean()-X | Measurement | standard gravity units | average
+tGravityAcc-mean()-Y | Measurement | standard gravity units | average
+tGravityAcc-mean()-Z | Measurement | standard gravity units | average
+tGravityAcc-std()-X | Measurement | standard gravity units | average
+tGravityAcc-std()-Y | Measurement | standard gravity units | average
+tGravityAcc-std()-Z | Measurement | standard gravity units | average
+tBodyAccJerk-mean()-X | Measurement | standard gravity units | average
+tBodyAccJerk-mean()-Y | Measurement | standard gravity units | average
+tBodyAccJerk-mean()-Z | Measurement | standard gravity units | average
+tBodyAccJerk-std()-X | Measurement | standard gravity units | average
+tBodyAccJerk-std()-Y | Measurement | standard gravity units | average
+tBodyAccJerk-std()-Z | Measurement | standard gravity units | average
+tBodyGyro-mean()-X | Measurement | radians per second | average
+tBodyGyro-mean()-Y | Measurement | radians per second | average
+tBodyGyro-mean()-Z | Measurement | radians per second | average
+tBodyGyro-std()-X | Measurement | radians per second | average
+tBodyGyro-std()-Y | Measurement | radians per second | average
+tBodyGyro-std()-Z | Measurement | radians per second | average
+tBodyGyroJerk-mean()-X | Measurement | radians per second | average
+tBodyGyroJerk-mean()-Y | Measurement | radians per second | average
+tBodyGyroJerk-mean()-Z | Measurement | radians per second | average
+tBodyGyroJerk-std()-X | Measurement | radians per second | average
+tBodyGyroJerk-std()-Y | Measurement | radians per second | average
+tBodyGyroJerk-std()-Z | Measurement | radians per second | average
+tBodyAccMag-mean() | Measurement | standard gravity units | average
+tBodyAccMag-std() | Measurement | standard gravity units | average
+tGravityAccMag-mean() | Measurement | standard gravity units | average
+tGravityAccMag-std() | Measurement | standard gravity units | average
+tBodyAccJerkMag-mean() | Measurement | standard gravity units | average
+tBodyAccJerkMag-std() | Measurement | standard gravity units | average
+tBodyGyroMag-mean() | Measurement | radians per second | average
+tBodyGyroMag-std() | Measurement | radians per second | average
+tBodyGyroJerkMag-mean() | Measurement | radians per second | average
+tBodyGyroJerkMag-std() | Measurement | radians per second | average
+fBodyAcc-mean()-X | Measurement | standard gravity units | average
+fBodyAcc-mean()-Y | Measurement | standard gravity units | average
+fBodyAcc-mean()-Z | Measurement | standard gravity units | average
+fBodyAcc-std()-X | Measurement | standard gravity units | average
+fBodyAcc-std()-Y | Measurement | standard gravity units | average
+fBodyAcc-std()-Z | Measurement | standard gravity units | average
+fBodyAccJerk-mean()-X | Measurement | standard gravity units | average
+fBodyAccJerk-mean()-Y | Measurement | standard gravity units | average
+fBodyAccJerk-mean()-Z | Measurement | standard gravity units | average
+fBodyAccJerk-std()-Y | Measurement | standard gravity units | average
+fBodyAccJerk-std()-Z | Measurement | standard gravity units | average
+fBodyGyro-mean()-X | Measurement | radians per second | average
+fBodyGyro-mean()-Y | Measurement | radians per second | average
+fBodyGyro-mean()-Z | Measurement | radians per second | average
+fBodyGyro-std()-X | Measurement | radians per second | average
+fBodyGyro-std()-Y | Measurement | radians per second | average
+fBodyGyro-std()-Z | Measurement | radians per second | average
+fBodyAccMag-mean() | Measurement | standard gravity units | average
+fBodyAccMag-std() | Measurement | standard gravity units | average
+fBodyBodyAccJerkMag-mean() | Measurement | standard gravity units | average
+fBodyBodyAccJerkMag-std() | Measurement | standard gravity units | average
+fBodyBodyGyroMag-mean() | Measurement | radians per second | average
+fBodyBodyGyroMag-std() | Measurement | radians per second | average
+fBodyBodyGyroJerkMag-mean() | Measurement | radians per second | average
+fBodyBodyGyroJerkMag-std() | Measurement | radians per second | average
+
