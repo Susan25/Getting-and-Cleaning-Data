@@ -9,7 +9,7 @@ The purpose of this project is to demonstrate your ability to collect, work with
 3. a code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called `codebook.md`. You should also include a `readme.md` in the repo with your scripts. This repo explains how all of the scripts work and how they are connected.
 
 ### The Assignment *
-One of the most exciting areas in all of data science right now is wearable computing - see for example this article . Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained: 
+One of the most exciting areas in all of data science right now is wearable computing - see for example this [article](http://www.insideactivitytracking.com/data-science-activity-tracking-and-the-battle-for-the-worlds-top-sports-brand/). Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained: 
 
 [Human Activity Recognition Using Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) 
 
@@ -27,8 +27,12 @@ You should create one R script called `run_analysis.R` that does the following:
 
 ### The Grading Scale / Questions *
 
-1. x
-2. x
+1. Has the student submitted a tidy data set? 
+2. Did the student submit a Github repo with the required scripts?
+3. Was code book submitted to GitHub that modifies and updates the codebooks available to you with the data to indicate all the variables and summaries you calculated, along with units, and any other relevant information?
+4. I was able to follow the README in the directory that explained what the analysis files did.
+5. As far as you can determine, does it appear that the work submitted for this project is the work of the student who submitted it? 
+
 
 
 ###### * Pulled directly a/o paraphased from the Course Project content on [Coursea](www.coursera.com).
