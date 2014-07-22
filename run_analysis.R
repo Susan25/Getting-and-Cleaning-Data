@@ -5,13 +5,16 @@
 setwd("~/GitHub/Getting-and-Cleaning-Data");
 datadir<-"raw data";
 
+
 # extend the test and train directories
 testdir<-paste(datadir, "test", sep="/");
 traindir<-paste(datadir, "train", sep="/");
 resultdir<-"result sets";
 
+
 # ensure data.table is available
 library(data.table);
+
 
 # load measurement labels and remove non mean|std labels - required for both train and test sets 
 features<-read.table(paste(datadir, "features.txt", sep="/"), sep="",strip.white=TRUE);

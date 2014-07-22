@@ -15,7 +15,7 @@ In order to ensure reproducable results, each of the below ordered steps must be
   2. Load headers from features.txt.
   3. Remove headers that are not are not 'mean' or 'standard deviation'.
   4. Load variable data from both X and Y data into a `data.table`, for both 'train' and 'test'.
-  5. `cbind' the X and Y `data.table`.
+  5. `cbind` the X and Y `data.table`.
   6. `rbind` the training and test sets for into a single set.
   7. Apply headers.
   8. Load activity labels from activity_labels.txt and `merge` labels to tidy data set.
