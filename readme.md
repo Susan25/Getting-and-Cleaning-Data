@@ -6,10 +6,10 @@ This repositity contains cleaned data originally collected by [www.smartlab.ws](
 Furthermore, the repository maintains the primary components of tidy data set used for analytics with respect to above stated overview.  Collectively, the below sub-sections represents a comprehensive view for reproducing and understanding the content as a whole.
 
 ###[2] The Instruction List
-In order to ensure reproducable results, each of the below ordered steps must be conducted.
+In order to ensure reproducible results, each of the below ordered steps must be conducted.
 
 1. Move raw data (found below) into your working directory under a directory called 'raw data'.
-2. Move `run_analysis.R` into your working directory. The algorithm for this script is below.
+2. Move `run_analysis.R` into your working directory. The process performed within this script is below.
   1. Define raw data and result set locations.
   2. Load headers from features.txt.
   3. Remove headers that are not are not 'mean' or 'standard deviation'.
